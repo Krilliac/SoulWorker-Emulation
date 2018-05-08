@@ -1,0 +1,14 @@
+Login/GameStart (Size 85)
+
+02 00 55 00 01 62 0A 3E 51 0B 3A 50 0B 3B 51 0B 3A 50 0A 3A 51 0A 3A 51 0E 3A 50 0A 3B 50 0B 3B 51 0B 3A 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 2B 40 1B 0B 60 3B 0B 60 3B 0A 60 3A 0A 61 3A 0A 61 3A ..U..b.>Q.:P.;Q.:P.:Q.:Q.:P.;P.;Q.:@.+@.+@.+@.+@.+@.+@.+@.+@.+@.+@.+@..`;.`;.`:.a:.a:
+
+
+Server Select (Size 15)
+
+02 00 0F 00 01 64 38 F8 54 CA 51 60 3B 0B 60 .....d8.T.Q`;.`
+
+Server Select2/Character List/Create Character (Size 21, Char List and Creation is the same exact data)
+
+02 00 15 00 01 61 3C 0A 60 3A 0B 61 3B 0B 60 3B 0B 60 3A 0B 61 .....a<.`:.a;.`;.`:.a
+
+This is all i can obtain for now.. Packet Recorder won't log anymore data past creating a character..
