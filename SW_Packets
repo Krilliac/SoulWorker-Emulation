@@ -10,5 +10,3 @@ Server Select (Size 15)
 Server Select2/Character List/Create Character (Size 21, Char List and Creation is the same exact data)
 
 02 00 15 00 01 61 3C 0A 60 3A 0B 61 3B 0B 60 3B 0B 60 3A 0B 61 .....a<.`:.a;.`;.`:.a
-
-This is all i can obtain for now.. Packet Recorder won't log anymore data past creating a character..
