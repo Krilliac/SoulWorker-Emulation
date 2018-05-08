@@ -1,0 +1,24 @@
+void __userpurge receive_eSUB_CMD_LOGIN_RESULT(int a1@<ecx>, int a2@<edi>, int a3@<esi>, int a4);
+char __thiscall receive_eSUB_CMD_ENTER_SERVER(void *this, int a2);
+void __userpurge receive_eSUB_CMD_ENTER_SERVER_RES(int a1@<ecx>, int a2@<edi>, int a3@<esi>, int a4);
+void __thiscall receive_eSUB_CMD_MOBILE_AUTH(void *this, int a2);
+void __thiscall receive_eSUB_CMD_ENTER_WAIT_CHECK(void *this, int a2);
+void __userpurge receive_eSUB_CMD_OPTION_LOAD(int a1@<edi>, int a2@<esi>, int a3);
+void __thiscall receive_eSUB_CMD_DELETE_CHARACATER_RES(void *this, int a2);
+void __thiscall receive_eSUB_CMD_CHARACTER_LIST_RES(void *this, int a2);
+char __thiscall receive_eSUB_CMD_SELECT_CHARACTER_RES(void *this, int a2);
+char __thiscall receive_eSUB_CMD_CHARACTER_ENTER_PROLOGUE(void *this, int a2);
+void __thiscall receive_eSUB_CMD_CHARACTER_ENTER_BATTLE_ZONE(void *this, int a2);
+void __userpurge receive_eSUB_CMD_SECOND_PASSWORD(int a1@<ecx>, int a2@<edi>, int a3@<esi>, int a4);
+void __userpurge receive_eSUB_CMD_TRADE_PASSWORD(int a1@<ecx>, int a2@<edi>, int a3@<esi>, int a4);
+void __thiscall receive_eSUB_CMD_CHARACTER_CHECK_NAME(void *this, int a2);
+void *__thiscall receive_eSUB_CMD_CHARACTER_LOAD_DISTRICT_STATE(void *this, int a2);
+void *__thiscall receive_eSUB_CMD_CHARACTER_LOAD_MAZE_STATE(void *this);
+void *__thiscall receive_eSUB_CMD_ENTER_MAZE_LIMIT_COUNT_LOAD(void *this, int a2);
+void *__stdcall receive_eSUB_CMD_ENTER_MAZE_LIMIT_COUNT_LOAD2___(int a1); // Need's Verification!
+struct IVTimer *__thiscall receive_eSUB_CMD_ENTER_GAMESERVER_RES(int this, int a2);
+void __userpurge receive_eSUB_CMD_CHARACTER_DB_LOAD_SYNC(int a1@<ecx>, int a2@<edi>, int a3@<esi>, int a4);
+
+void __thiscall LoginScene::receive_eSUB_CMD_CHARACTER(void *this, int a2);
+char __thiscall LoginScene::DoUpdateScene(void *this, int a2);
+char __thiscall LoginScene::receive_eSUB_CMD_CHARACTER_KICK_OUT(void *this, int a2);
