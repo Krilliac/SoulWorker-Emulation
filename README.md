@@ -3,6 +3,12 @@ Collective resource of information to maybe one day emulate the MMORPG SoulWorke
 
 Might be a good idea to dig around a bit and look for existing up to date emulators that are already available (If they are updated...) 
 
+# Running "Without Steam"
+
+Select SoulWorker.exe, right click and create a shortcut with the following Command Line Parameters.
+
+--ip 194.187.19.129 --port 10000 --steam
+
 # Information
 WireShark required to actually obtain all data
 
