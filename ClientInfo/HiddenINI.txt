@@ -1,0 +1,296 @@
+//----- (0033FF90) --------------------------------------------------------
+char __thiscall sub_33FF90(void *this)
+{
+  int v1; // ecx@3
+  char result; // al@4
+  CHAR v3; // ST6B_1@16
+  CHAR v4; // ST5B_1@18
+  CHAR v5; // ST4B_1@20
+  CHAR v6; // ST3B_1@22
+  char v7; // ST2F_1@24
+  int v8; // ST88_4@34
+  int v9; // eax@34
+  int v10; // eax@34
+  int v11; // eax@34
+  const char *v12; // ST18_4@34
+  int v13; // eax@34
+  const char *v14; // [sp+0h] [bp-4C0h]@32
+  int v15; // [sp+4h] [bp-4BCh]@0
+  int v16; // [sp+8h] [bp-4B8h]@29
+  int v17; // [sp+Ch] [bp-4B4h]@0
+  int v18; // [sp+18h] [bp-4A8h]@23
+  int v19; // [sp+1Ch] [bp-4A4h]@23
+  int v20; // [sp+28h] [bp-498h]@21
+  CHAR *v21; // [sp+2Ch] [bp-494h]@21
+  int v22; // [sp+38h] [bp-488h]@19
+  CHAR *v23; // [sp+3Ch] [bp-484h]@19
+  int v24; // [sp+48h] [bp-478h]@17
+  CHAR *v25; // [sp+4Ch] [bp-474h]@17
+  int v26; // [sp+58h] [bp-468h]@15
+  CHAR *v27; // [sp+5Ch] [bp-464h]@15
+  int v28; // [sp+60h] [bp-460h]@12
+  int v29; // [sp+64h] [bp-45Ch]@9
+  void *v30; // [sp+68h] [bp-458h]@1
+  int v31; // [sp+78h] [bp-448h]@8
+  int v32; // [sp+7Ch] [bp-444h]@8
+  CHAR FileName; // [sp+80h] [bp-440h]@6
+  char v34; // [sp+81h] [bp-43Fh]@6
+  CHAR ReturnedString; // [sp+188h] [bp-338h]@1
+  char Dst; // [sp+189h] [bp-337h]@1
+  char Dest; // [sp+290h] [bp-230h]@1
+  char v38; // [sp+291h] [bp-22Fh]@1
+  CHAR v39; // [sp+398h] [bp-128h]@39
+  char v40; // [sp+399h] [bp-127h]@39
+  int v41; // [sp+4A0h] [bp-20h]@7
+  int v42; // [sp+4A4h] [bp-1Ch]@5
+  int v43; // [sp+4A8h] [bp-18h]@34
+  int v44; // [sp+4ACh] [bp-14h]@34
+  int v45; // [sp+4B0h] [bp-10h]@5
+  int v46; // [sp+4B4h] [bp-Ch]@5
+  int v47; // [sp+4B8h] [bp-8h]@34
+  int v48; // [sp+4BCh] [bp-4h]@1
+
+  v30 = this;
+  ReturnedString = 0;
+  memset(&Dst, 0, 0x103u);
+  Dest = 0;
+  memset(&v38, 0, 0x103u);
+  sprintf(&Dest, "%s/%s", (char *)v30 + 592, "Ver.ini");
+  GetPrivateProfileStringA("Client", "ver", "0", (LPSTR)v30 + 4, 0x104u, &Dest);
+  sprintf(&Dest, "%s/%s", (char *)v30 + 592, "revision.ini");
+  GetPrivateProfileStringA("Client", "SVN", "0", &ReturnedString, 0x104u, &Dest);
+  *((_DWORD *)v30 + 66) = atoi(&ReturnedString);
+  sprintf(&Dest, "%s/%s", (char *)v30 + 592, "General.ini");
+  GetPrivateProfileStringA("System Info", "File Version", "0", &ReturnedString, 0x104u, &Dest);
+  v48 = atoi(&ReturnedString);
+  GetPrivateProfileStringA("System Info", "File Archive", "0", &ReturnedString, 0x104u, &Dest);
+  *((_DWORD *)v30 + 144) = atoi(&ReturnedString);
+  if ( v48 >= 24 )
+  {
+    v46 = 0;
+    v45 = 0;
+    v42 = -1;
+    GetPrivateProfileStringA("Screen", "WIDTH", "1280", &ReturnedString, 0x104u, &Dest);
+    v46 = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Screen", "HEIGHT", "720", &ReturnedString, 0x104u, &Dest);
+    v45 = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Screen", "SCREENMODE", "0", &ReturnedString, 0x104u, &Dest);
+    v42 = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Screen", "CHANGEINFO", "0", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1436) = atoi(&ReturnedString) != 0;
+    if ( *((_BYTE *)v30 + 1436) )
+    {
+      GetPrivateProfileStringA("Screen", "QUALITY", "0", &ReturnedString, 0x104u, &Dest);
+      *((_DWORD *)v30 + 360) = atoi(&ReturnedString);
+      GetPrivateProfileStringA("Screen", "ANTIALIASING", "0", &ReturnedString, 0x104u, &Dest);
+      *((_BYTE *)v30 + 1444) = atoi(&ReturnedString) != 0;
+      FileName = 0;
+      memset(&v34, 0, 0x103u);
+      sprintf(&FileName, "%s/%s", (char *)v30 + 592, "General.ini");
+      WritePrivateProfileStringA("Screen", "CHANGEINFO", "0", &FileName);
+    }
+    v41 = (int)&unk_E38A3C;
+    if ( &unk_E38A3C )
+    {
+      v32 = GetSystemMetrics(0);
+      v31 = GetSystemMetrics(1);
+      if ( v46 <= v32 )
+        v29 = v46;
+      else
+        v29 = v32;
+      v46 = v29;
+      if ( v45 <= v31 )
+        v28 = v45;
+      else
+        v28 = v31;
+      v45 = v28;
+      sub_393F70((int)&unk_E38958, v46, v46, v28);
+      *(_DWORD *)(v41 + 4) = v42;
+    }
+    GetPrivateProfileStringA("Sound Info", "FMODDesigner", "0", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1344) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Network Info", "MODE", "1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 67) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "AUTO", "1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 68) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "CHARACTER", "1", &ReturnedString, 0x104u, &Dest);
+    *((_WORD *)v30 + 138) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "IP", "203.168.1.107", &ReturnedString, 0x104u, &Dest);
+    v27 = &ReturnedString;
+    v26 = (int)((char *)v30 + 433);
+    do
+    {
+      v3 = *v27;
+      *(_BYTE *)v26++ = *v27++;
+    }
+    while ( v3 );
+    GetPrivateProfileStringA("Network Info", "PORT", "25001", &ReturnedString, 0x104u, &Dest);
+    *((_WORD *)v30 + 237) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "AccountID", &byte_D57A8C, &ReturnedString, 0x104u, &Dest);
+    v25 = &ReturnedString;
+    v24 = (int)((char *)v30 + 278);
+    do
+    {
+      v4 = *v25;
+      *(_BYTE *)v24++ = *v25++;
+    }
+    while ( v4 );
+    GetPrivateProfileStringA("Network Info", "Password", &byte_D57A8C, &ReturnedString, 0x104u, &Dest);
+    v23 = &ReturnedString;
+    v22 = (int)((char *)v30 + 360);
+    do
+    {
+      v5 = *v23;
+      *(_BYTE *)v22++ = *v23++;
+    }
+    while ( v5 );
+    GetPrivateProfileStringA("Network Info", "Latency", "1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 325) = (unsigned __int16)atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "SelectServer", "-1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 326) = (unsigned __int16)atoi(&ReturnedString);
+    GetPrivateProfileStringA("Network Info", "SaveAuth", "0", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1424) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Network Info", "USE_GENERAL_IP", "0", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1447) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Locale Info", "Language", &byte_D57A8C, &ReturnedString, 0x104u, &Dest);
+    v21 = &ReturnedString;
+    v20 = (int)((char *)v30 + 1345);
+    do
+    {
+      v6 = *v21;
+      *(_BYTE *)v20++ = *v21++;
+    }
+    while ( v6 );
+    v19 = (int)((char *)v30 + 1345);
+    v18 = (int)((char *)v30 + 1346);
+    do
+      v7 = *(_BYTE *)v19++;
+    while ( v7 );
+    if ( v19 == v18 || !sub_341EA0((int)((char *)v30 + 1345)) )
+      sub_341E30(v30, (int *)&byte_D57A8C);
+    sub_3417E0(v30);
+    sub_341C50(v30);
+    GetPrivateProfileStringA("Lobby Info", "CameraTargetZ", "90", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 214) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Lobby Info", "CameraPosX", "0", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 215) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Lobby Info", "CameraPosY", "-310", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 216) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Lobby Info", "CameraPosZ", "110", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 217) = atof(&ReturnedString);
+    GetPrivateProfileStringA("GameOption", "SSAO", "1", &ReturnedString, 0x104u, &Dest);
+    if ( atoi(&ReturnedString) )
+    {
+      v17 = atoi(&ReturnedString);
+      *((_DWORD *)v30 + 334) = v17;
+      v16 = v17;
+    }
+    else
+    {
+      *((_DWORD *)v30 + 334) = 0;
+      v16 = 0;
+    }
+    GetPrivateProfileStringA("ETC", "Time Of Day", "0", &ReturnedString, 0x104u, &Dest);
+    if ( atoi(&ReturnedString) )
+    {
+      v15 = atoi(&ReturnedString);
+      *((_DWORD *)v30 + 335) = v15;
+      v14 = (const char *)v15;
+    }
+    else
+    {
+      *((_DWORD *)v30 + 335) = 0;
+      v14 = 0;
+    }
+    GetPrivateProfileStringA("Test Info", "PRIORLOAD", "0", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1445) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Test Info", "TestClient", "0", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 219) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestSceneType", "1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 221) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestScene", "10001", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 222) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestClass", "1", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 223) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestDeath", "0", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 220) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "MinimumEffect", "0", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 218) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "CreateLogFile", "0", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 224) = atoi(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestScenePosX", "0", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 225) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestScenePosY", "-310", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 226) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "TestScenePosZ", "110", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 227) = atof(&ReturnedString);
+    GetPrivateProfileStringA("Test Info", "FixedAttackDir", "1", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1308) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Test Info", "AttackToCameraDir", "1", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1309) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Test Info", "UseEvadeByDoubleClick", "1", &ReturnedString, 0x104u, &Dest);
+    *((_BYTE *)v30 + 1310) = atoi(&ReturnedString) != 0;
+    GetPrivateProfileStringA("Test Info", "FPS", "0", &ReturnedString, 0x104u, &Dest);
+    *((float *)v30 + 328) = (float)atoi(&ReturnedString);
+    v8 = (int)((char *)v30 + 1324);
+    *((_BYTE *)v30 + 1326) = -1;
+    *(_BYTE *)(v8 + 1) = -1;
+    *(_BYTE *)v8 = -1;
+    *((_DWORD *)v30 + 332) = 1058642330;
+    *((_DWORD *)v30 + 333) = 1041865114;
+    v47 = 0;
+    GetPrivateProfileStringA("Test Info", "NormalLogShowLv", "0", &ReturnedString, 0x104u, &Dest);
+    v9 = atoi(&ReturnedString);
+    v47 = v9;
+    v10 = CDebugLog::GetInstance(v9, v14, v15, v16, v17, v19 - v18);
+    CDebugLog::SetNormalLogLv(v10);
+    v43 = 0;
+    GetPrivateProfileStringA("Test Info", "CrashLogShowLv", "0", &ReturnedString, 0x104u, &Dest);
+    v11 = atoi(&ReturnedString);
+    v43 = v11;
+    v13 = CDebugLog::GetInstance(v11, v12);
+    CDebugLog::SetCrashLogLv(v13);
+    v44 = 0;
+    GetPrivateProfileStringA("Test Info", "MakeNotExistFileList", "0", &ReturnedString, 0x104u, &Dest);
+    v44 = atoi(&ReturnedString);
+    *((_BYTE *)v30 + 1592) = v44 != 0;
+    sub_341340(v30);
+    sub_391320(&unk_E38958);
+    if ( *((_DWORD *)v30 + 219) == 1 )
+    {
+      if ( &unk_E38998 )
+      {
+        *((_DWORD *)&unk_E38998 + 1) = 1;
+        *((_BYTE *)&unk_E38998 + 9) = *((_BYTE *)v30 + 1309);
+        *((_BYTE *)&unk_E38998 + 8) = *((_BYTE *)v30 + 1310);
+      }
+      if ( *((float *)v30 + 328) != 0.0 )
+        *(float *)&dword_E15198 = 1.0 / *((float *)v30 + 328);
+    }
+    v39 = 0;
+    memset(&v40, 0, 0x103u);
+    sprintf(&Dest, "%s/%s", (char *)v30 + 592, "Ver.ini");
+    GetPrivateProfileStringA("Client", "ver", "0", &v39, 0x104u, &Dest);
+    sprintf(&Dest, "%s/%s", (char *)v30 + 592, "revision.ini");
+    GetPrivateProfileStringA("Client", "Revision", "0", &ReturnedString, 0x104u, &Dest);
+    *((_DWORD *)v30 + 66) = atoi(&ReturnedString);
+    result = sub_347780((char *)v30 + 4, "Ver %s", &v39);
+  }
+  else
+  {
+    if ( !VisFile_cl::Exists(Vision::File, &Dest, 0) )
+    {
+      v1 = (int)((char *)v30 + 1345);
+      *(_DWORD *)v1 = 1836213575;
+      *(_WORD *)(v1 + 4) = 28257;
+      *(_BYTE *)(v1 + 6) = 0;
+      *((_DWORD *)v30 + 345) = 4;
+      *((_DWORD *)v30 + 144) = 1;
+    }
+    sub_3417E0(v30);
+    sub_341C50(v30);
+    sub_342090(v30);
+    result = sub_391320(&unk_E38958);
+  }
+  return result;
+}

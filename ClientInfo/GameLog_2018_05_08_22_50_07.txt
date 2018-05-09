@@ -1,0 +1,483 @@
+LOGLV 1 : 0.000 :: CharacterCustormizingPanel_cl::_SetCameraStatus( CAMERA_NONE )
+Using directory: D:\SteamLibrary\steamapps\common\SoulWorker
+Using loaded Engine Plugin: 'D:\SteamLibrary\steamapps\common\SoulWorker\VisionEnginePlugin.vPlugin'.
+Loading Engine Plugin 'D:\SteamLibrary\steamapps\common\SoulWorker\VisionEnginePlugin.vPlugin'.
+Plugin 'D:\SteamLibrary\steamapps\common\SoulWorker\VisionEnginePlugin.vPlugin' loaded
+Using loaded Engine Plugin: 'D:\SteamLibrary\steamapps\common\SoulWorker\vScaleformPlugin.vPlugin'.
+Loading Engine Plugin 'D:\SteamLibrary\steamapps\common\SoulWorker\vScaleformPlugin.vPlugin'.
+Plugin 'D:\SteamLibrary\steamapps\common\SoulWorker\vScaleformPlugin.vPlugin' loaded
+Initializing engine
+Vision DLL path: D:\SteamLibrary\steamapps\common\SoulWorker\SoulWorker.exe
+Vision version WIN32 DIRECTX9 - 2012, 2, 0, 0
+Using fast timer
+Initializing Vision Graphics Engine
+Detecting CPU type and features
+Settings renderer configuration
+WARNING: This System has Headset Earphone (Corsair VOID PRO USB Gaming Headset ) driver.
+WARNING: This System has VX2452 Series (NVIDIA High Definition Audio) driver.
+WARNING: This System has Realtek Digital Output (Realtek High Definition Audio) driver.
+WARNING: It is currently applied to Headset Earphone (Corsair VOID PRO USB Gaming Headset ) sound driver.
+WARNING: [Lua] Cannot cast to CutSceneManager_cl!
+Initialising video driver: 0
+Setting screen mode to x:1920 / y:1080 / frontbuffer bpp:32 / refresh:0
+Screen Mode is windowed
+Using Pixel Shader Version: 3.0
+Using Vertex Shader Version: 3.0
+Using Hardware Instancing.
+Initializing WIN32 DirectX9 rendering subsystem
+Setting initial Renderer States
+Vendor: ID=4318 SubSys=1366505538 Rev=161
+Renderer: nvldumd.dll
+Driver Version: 1507349.861103
+Texture Formats: RGB, RGBA, BGR, BGRA, DXT1A, DXT1, DXT3, DXT5, RGB555, RGB565, RGBA1555, RGBA4444, ALPHA8, LUMINANCE8, LUMINANCE16, RGBA16F, RGBA32F, R16F, R32F, G16R16F, G32R32F, G16R16, RGBA16, D24S8, D24X8, D16, A8L8, R10G10B10A2, INTZ
+Render Target Formats: RGB, RGBA, BGR, BGRA, RGB555, RGB565, ALPHA8, LUMINANCE8, LUMINANCE16, RGBA16F, RGBA32F, R16F, R32F, G16R16F, G32R32F, G16R16, RGBA16, R10G10B10A2
+Depth Stencil Formats: D24S8, D24X8, D16, INTZ
+Engine initialized
+Adding data directory "D:\SteamLibrary\steamapps\common\SoulWorker"
+Output directory is "D:\SteamLibrary\steamapps\common\SoulWorker"
+Adding data directory "D:\SteamLibrary\steamapps\common\SoulWorker"
+Settings renderer configuration
+Vision Core: Allocated 31 kB of memory for Lights
+LOGLV 0 : 1.004 :: ActivateScene(LoginScene) Start...
+
+VisMain_cl::DeInit
+DeInitializing Object Data...
+DeInitializing Surface and Texture Data...
+Initializing Vision Graphics Engine
+Detecting CPU type and features
+Settings renderer configuration
+Vision Core: Allocated 31 kB of memory for Lights
+LOGLV 0 : 1.004 :: WorldResourceHandler: World/Scenes/LoginBackground\ClassSelect.vscene scene loaded.
+
+LOGLV 0 : 1.004 :: WorldResourceHandler: World/Scenes/LoginBackground\ClassSelect.vscene scene has 1 zones.
+
+LOGLV 2 : 1.004 :: _SetCurrentPanelStep : Before (VPanelStep_None), Current (VPanelStep_None)
+LOGLV 2 : 1.004 :: OnTransitionPanelStep : VPanelStep_None
+LOGLV 2 : 1.004 :: [SystemOption] ShadowQuality(1)
+LOGLV 2 : 1.004 :: [SystemOption] TerrainVisibility(1)
+LOGLV 2 : 1.004 :: [SystemOption] Gamma(50) : 1.000000
+LOGLV 2 : 1.004 :: [SystemOption] DepthOfField(False)
+LOGLV 2 : 1.004 :: [SystemOption] DestructionPhysics(True)
+LOGLV 2 : 1.004 :: [SystemOption] VSync(False)
+LOGLV 1 : 1.004 :: SetRenderLoopLock>> 0
+LOGLV 0 : 1.004 :: ActivateScene(LoginScene) End...
+
+LOGLV 2 : 3.293 :: _SetCurrentPanelStep : Before (VPanelStep_None), Current ((null))
+LOGLV 2 : 2.008 :: send_eSUB_CMD_POST_RECV_LIST
+LOGLV 0 : 9.908 :: video end [time:79151020][name:(null)]
+
+LOGLV 2 : 11.206 :: SetLoginPanel (VPanelStep_ServerSelect), Enable ShiftEffect(FALSE)
+LOGLV 2 : 11.206 :: SceneChange StartEffect : Complete
+LOGLV 2 : 11.214 :: SceneChange StartEffect : Complete
+LOGLV 2 : 11.214 :: _SetCurrentPanelStep : Before ((null)), Current (VPanelStep_ServerSelect)
+LOGLV 2 : 11.214 :: OnTransitionPanelStep : VPanelStep_Login, VPanelStep_ServerSelect
+LOGLV 1 : 11.214 :: FMOD BGM : BGM/BGM_lobby/lobby Sound Event is Playing.
+LOGLV 2 : 11.214 :: [SystemOption] MultisampleMode(VVIDEO_MULTISAMPLE_4TIMES)
+LOGLV 1 : 11.214 :: Shift the current panel (ServerSelectPanel_cl)
+LOGLV 1 : 11.362 :: send_eSUB_CMD_LOGIN_FOR_GF
+LOGLV 2 : 11.387 :: SceneChange EndEffect : Complete
+LOGLV 2 : 12.612 :: receive_eSUB_CMD_LOGIN_RESULT
+LOGLV 2 : 12.612 :: send_eSUB_CMD_SERVER_LIST_REQ
+LOGLV 2 : 12.799 :: receive_eSUB_CMD_SERVER_LIST : ServerCount[7]
+LOGLV 1 : 12.799 :: receive_eSUB_CMD_OPTION_LOAD false false false false false true false true true true true true true true 
+LOGLV 2 : 14.385 :: send_eSUB_CMD_SERVER_CONNECT_REQ
+LOGLV 2 : 14.550 :: receive_eSUB_CMD_ENTER_SERVER
+LOGLV 1 : 14.550 :: ConnectGame>> 206.253.173.62 10102
+LOGLV 1 : 14.561 :: <SOCKET> BlockSocket ( 0 / 2160 )
+LOGLV 2 : 14.657 :: send_eSUB_CMD_ENTER_SERVER_REQ - [0]
+LOGLV 1 : 15.108 :: receive_eSUB_CMD_ENTER_SERVER_RES Result = 0
+LOGLV 2 : 15.108 :: send_eSUB_CMD_CHARACTER_LIST_REQ
+LOGLV 2 : 15.108 :: PlayScene::receive_eSUB_CMD_WORLD_CUR_DATE
+LOGLV 2 : 15.341 :: receive_eSUB_CMD_CHARACTER_LIST_RES
+LOGLV 2 : 15.341 :: CHARACTER_LIST_INFO : Characters : QKK[1(1461838)] Testuu[2(1461921)]  / Count[2] / SelectUCID[1461838]
+LOGLV 2 : 15.341 :: SetLoginPanel (VPanelStep_CharacterSelect), Enable ShiftEffect(TRUE)
+LOGLV 2 : 15.341 :: CharacterListInitializeTime--[0]
+LOGLV 2 : 15.341 :: receive_eSUB_CMD_SYSTEM_SERVER_OPTION_UPDATE true false true false true false false false false false false true false true 
+LOGLV 2 : 16.208 :: SceneChange StartEffect : Complete
+LOGLV 2 : 16.208 :: _SetCurrentPanelStep : Before (VPanelStep_ServerSelect), Current (VPanelStep_CharacterSelect)
+LOGLV 2 : 16.208 :: OnTransitionPanelStep : VPanelStep_CharacterSelect
+LOGLV 0 : 16.208 :: RemoveScaleformMovie : GUI\severSelectScene.gfx
+
+LOGLV 2 : 16.208 :: CL_SelectCharacterIndex : 0
+LOGLV 2 : 16.208 :: onClickCharacterSelect : 0
+LOGLV 2 : 16.208 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 1 : 16.208 :: Shift the current panel (CharacterSelectPanel_cl)
+LOGLV 2 : 16.745 :: SceneChange EndEffect : Complete
+LOGLV 2 : 19.068 :: send_eSUB_CMD_SELECT_CHARACTER_REQ
+LOGLV 0 : 19.068 :: CQuestMgr::SetPlayerLevel>> Not setting class info!!!
+
+LOGLV 2 : 19.435 :: receive_eSUB_CMD_SELECT_CHARACTER_RES
+LOGLV 1 : 19.435 :: ConnectGame>> 40.71.184.97 11021
+LOGLV 1 : 19.445 :: <SOCKET> BlockSocket ( 0 / 3040 )
+LOGLV 2 : 19.532 :: send_eSUB_CMD_ENTER_GAMESERVER_REQ
+LOGLV 2 : 20.109 :: PlayScene::receive_eSUB_CMD_WORLD_CUR_DATE
+LOGLV 2 : 20.109 :: receive_eSUB_CMD_WORLD_VERSION
+LOGLV 2 : 20.109 :: receive_eSUB_CMD_EVENT_DAY_EVENT_BOOSTER_LIST
+LOGLV 2 : 20.109 :: receive_eSUB_CMD_ENTER_GAMESERVER_RES - LoginScene Active = TRUE
+LOGLV 2 : 20.109 :: receive_eSUB_CMD_SYSTEM_KEEP_ALIVE
+LOGLV 2 : 20.167 :: receive_eSUB_CMD_EVENT_ATTENDANCE_LOAD
+LOGLV 2 : 20.167 :: Wrong Stat User[CHARACTER_UPDATE_STAT_LIST] >> 1461838 
+LOGLV 2 : 20.167 :: Wrong Stat User[CHARACTER_UPDATE_STAT_LIST] >> 1461838 
+LOGLV 2 : 20.201 :: receive_eSUB_CMD_EXCHANGE_INTEREST_LIST
+LOGLV 2 : 20.259 :: send_eSUB_CMD_CHARACTER_INFO_REQ
+LOGLV 2 : 20.259 :: receive_eSUB_CMD_CHARACTER_DB_LOAD_SYNC
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_CHARACTER_INFO_RES
+LOGLV 2 : 20.351 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 20.351 :: CreatePlayer>> 1461838(QKK) 
+LOGLV 1 : 20.351 :: SetLastSettingPosition( 11402.31, 11396.52, 100.78 )
+LOGLV 2 : 20.351 :: SetLocationPos>> (QKK) (11402.31,11396.52,100.78)
+LOGLV 1 : 20.351 :: GetMyPlayer()->SetEnableInputProcess(FALSE) => from 'LoginScene::receive_eSUB_CMD_CHARACTER_INFO_RES( XPacket& xPacket )' 
+LOGLV 0 : 20.351 :: CMyPlayer::SetEnableInputProcess bEnable : false
+
+LOGLV 2 : 20.351 :: eSUB_CMD_INFINITE_TOWER_LOAD_INFO
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SYSTEM_EVENT
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SYSTEM_SERVER_OPTION_UPDATE true false true false true false false false false false false true false true 
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_CHARACTER_LOAD_DISTRICT_STATE
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_CHARACTER_LOAD_MAZE_STATE
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_MAZE_CLEAR_INFO
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SOULMETRY_LIST
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SOULMETRY_COMPLETE_LIST
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_ACHIEVE_SELECT : 
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SHOP_CASH_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SHOP_CASH_TAB_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SHOP_CASH_BUY_COUNT_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SHOP_CASH_SET_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_ITEM_APPEARANCE_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_NPC_CREDIT_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_SHOP_ITEM_LOAD
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_EXCHANGE_MY_LIST
+LOGLV 2 : 20.351 :: receive_eSUB_CMD_MYROOM_LOAD_INDEX
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_DAILY_MISSION_LIST
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_HELPER_LIST_LOAD
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_FRIEND_LOAD
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_FRIEND_LOAD_BLOCKLIST
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_CHARACTER_FP_UPDATE
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_ACHIEVE_UPDATE : 20445976
+LOGLV 2 : 20.511 :: receive_eSUB_CMD_ACHIEVE_UPDATE : COMPLETE!!
+LOGLV 2 : 20.856 :: _SetCurrentPanelStep : Before (VPanelStep_CharacterSelect), Current (VPanelStep_None)
+LOGLV 0 : 20.856 :: RemoveScaleformMovie : GUI\outgamescenechange.gfx
+
+LOGLV 0 : 20.856 :: Loading Scene ActivateScene >> Start...(413.21MB), Maze ID : 0
+
+LOGLV 1 : 20.856 :: SetRenderLoopLock>> 1
+LOGLV 0 : 20.856 :: RemoveScaleformMovie : GUI\characterSelectScene.gfx
+
+LOGLV 2 : 20.856 :: DestroyPlayer>> 0(QKK) 
+LOGLV 1 : 20.856 :: FMOD BGM : SW_Project/BGM/BGM_lobby/lobby Sound Event is stop.
+LOGLV 1 : 20.856 :: FMOD BGM : BGM/BGM_Loading/Loading Sound Event is Playing.
+LOGLV 0 : 20.856 :: Loading Scene ActivateScene >> end
+
+LOGLV 1 : 20.919 :: ChangeWorld>> Scene Index =  10003
+Resource file found: World/Scenes/Cloudream\F031_ROCCOTOWN\F031_ROCCOTOWN.vscene_data\resources.vres
+LOGLV 1 : 20.919 :: FMOD BGM : SW_Project/BGM/BGM_Loading/Loading Sound Event is stop.
+LOGLV 1 : 20.919 :: FMOD BGM : BGM/BGM_Loading/Loading Sound Event is Playing.
+LOGLV 1 : 20.919 :: DeleteAllControlTutorial
+VisMain_cl::DeInit
+DeInitializing Object Data...
+DeInitializing Surface and Texture Data...
+Initializing Vision Graphics Engine
+Detecting CPU type and features
+Settings renderer configuration
+Vision Core: Allocated 31 kB of memory for Lights
+LOGLV 1 : 20.919 :: ChangeWorld>> Done
+LOGLV 1 : 21.091 :: FMOD BGM : BGM/BGM_Loading/Loading Sound Event is Playing.
+LOGLV 0 : 28.571 :: WorldResourceHandler: streaming loading End. PreloadSceneFile()
+
+LOGLV 0 : 28.571 :: WorldResourceHandler: World/Scenes/Cloudream\F031_ROCCOTOWN\F031_ROCCOTOWN.vscene scene loaded.
+
+LOGLV 0 : 28.571 :: WorldResourceHandler: World/Scenes/Cloudream\F031_ROCCOTOWN\F031_ROCCOTOWN.vscene scene has 1 zones.
+
+LOGLV 1 : 28.571 :: GameWorldManager::_OnDistrictLoadedComplete
+LOGLV 1 : 28.571 :: VPortalBox : ID(21108) Portal is 활성화. FX_Path(FXs\World\FX_GATE02_01.xml)
+LOGLV 1 : 28.571 :: VPortalBox : ID(30021) Portal is 비활성화. FX_Path(FXs\World\FX_GATE01_02.xml)
+LOGLV 1 : 28.571 :: VPortalBox : ID(21011) Portal is 비활성화. FX_Path(FXs\World\FX_GATE01_02.xml)
+LOGLV 1 : 28.571 :: VPortalBox : ID(21511) Portal is 활성화. FX_Path(FXs\World\FX_GATE02_01.xml)
+LOGLV 1 : 28.571 :: VPortalBox : ID(21106) Portal is 활성화. FX_Path(FXs\World\FX_GATE02_01.xml)
+LOGLV 1 : 28.571 :: VPortalBox : ID(21107) Portal is 활성화. FX_Path(FXs\World\FX_GATE02_01.xml)
+LOGLV 1 : 28.571 :: GameWorldManager::_OnDistrictLoadedComplete>> Done
+LOGLV 1 : 28.571 :: BandiReceiver Add : [BandiReceiver0] receiver
+LOGLV 0 : 30.020 :: Loading Scene DeactivateScene >> begin...(300.36MB), Maze ID : 10003
+
+LOGLV 0 : 30.020 :: Loading Scene DeactivateScene >> end
+
+LOGLV 0 : 30.020 :: Play Scene ActivateScene >> Start...(300.37MB)
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> begin
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> AbstractScene::ActivateScene
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> RunGameScript
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> new VInputMap
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> GamePadSetup
+
+LOGLV 0 : 30.020 :: GameCommon Scene ActivateScene >> End
+
+LOGLV 1 : 30.020 :: FMOD BGM : SW_Project/BGM/BGM_Loading/Loading Sound Event is stop.
+LOGLV 1 : 30.020 :: FMOD BGM : BGM/Town_RoccoTown/RoccoTown Sound Event is Playing.
+LOGLV 2 : 30.020 :: BGM::SetBossBGMInfo>> (/) : 0
+LOGLV 0 : 30.020 :: RemoveScaleformMovie : GUI\LoadingContainer.gfx
+
+LOGLV 2 : 30.020 :: send_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.020 :: eSUB_CMD_PARTY_UPDATE_INFO
+LOGLV 2 : 30.020 :: send_eSUB_CMD_PARTY_RECRUIT_LIST
+LOGLV 2 : 30.020 :: send_eSUB_CMD_PARTY_AWAITER_LIST
+LOGLV 2 : 30.020 :: eSUB_CMD_ITEM_BANK_INFO
+LOGLV 2 : 30.020 :: send_eSUB_CMD_FRIEND_RECOMMAND_LIST
+LOGLV 2 : 30.020 :: send_eSUB_CMD_FRIEND_RECRUIT_LIST
+LOGLV 2 : 30.020 :: send_eSUB_CMD_FRIEND_RECRUIT_INFO
+LOGLV 2 : 30.020 :: send_eSUB_CMD_EXCHANGE_INTEREST_LIST
+LOGLV 2 : 30.020 :: send_eSUB_CMD_EXCHANGE_MY_LIST
+LOGLV 2 : 30.020 :: send_eSUB_CMD_CHARACTER_LOAD_TITLE
+LOGLV 1 : 30.020 :: GetMyPlayer()->SetEnableInputProcess(TRUE) => from 'PlayScene::ActivateScene()' 
+LOGLV 0 : 30.020 :: CMyPlayer::SetEnableInputProcess bEnable : true
+
+LOGLV 0 : 30.020 :: CMyPlayer::SetEnableInputProcess bEnable : true
+
+LOGLV 1 : 30.020 :: SetRenderLoopLock>> 0
+LOGLV 2 : 30.020 :: send_eSUB_CMD_CHANNEL_INFO
+LOGLV 2 : 30.020 :: Reporting>> MINIMAP loaded Complete!!
+LOGLV 1 : 30.020 :: GetSceneFile>> District Scene Index =  10003
+LOGLV 2 : 30.020 :: Reporting>> WORLDMAP loaded Complete!!
+LOGLV 0 : 30.020 :: Play Scene ActivateScene >> ClearPartyMemberAllBuff
+
+LOGLV 0 : 30.020 :: Play Scene ActivateScene >> QuestAlram
+
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13300.84,8855.13,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (11359.09,7940.43,100.00)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (11416.34,9095.62,100.00)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13199.25,9162.31,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13164.69,9087.43,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (11540.60,11848.21,100.06)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13258.29,9083.11,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13039.65,6315.12,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13281.33,9152.23,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (11924.46,9499.59,90.74)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (11678.86,9213.76,100.06)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13212.21,8998.15,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (12192.37,9667.55,90.74)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13356.21,8989.51,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (12351.17,9401.55,90.74)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13482.93,9024.07,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (17297.33,9721.56,100.06)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (12879.57,9103.27,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13503.09,9427.27,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (13000.53,9456.07,99.92)
+LOGLV 2 : 30.020 :: SetLocationPos>> (Dummy) (12881.01,8685.67,99.92)
+LOGLV 2 : 30.020 :: [SystemOption] ShadowQuality(1)
+LOGLV 2 : 30.020 :: [SystemOption] TerrainVisibility(1)
+LOGLV 2 : 30.020 :: [SystemOption] Brightness(50) : 0.000000
+LOGLV 2 : 30.020 :: [SystemOption] Contrast(50): 1.000000
+LOGLV 2 : 30.020 :: [SystemOption] Gamma(50) : 1.000000
+LOGLV 2 : 30.020 :: [SystemOption] DepthOfField(False)
+LOGLV 2 : 30.020 :: [SystemOption] DestructionPhysics(True)
+LOGLV 2 : 30.020 :: [SystemOption] VSync(False)
+LOGLV 0 : 30.020 :: Play Scene ActivateScene >> ApplyGraphicAll
+
+LOGLV 0 : 30.020 :: Play Scene ActivateScene >> End...(364.65MB)
+
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_UPDATE_CASH
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 558507
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1423498
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 440539
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1209434
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 328625
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1396469
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1470110
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1469521
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1404284
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1349073
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1449887
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 784372
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1385709
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 47443
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1205108
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1361738
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1464019
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1436417
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1468584
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1385153
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1351738
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1456034
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1421550
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1461806
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1470354
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1464291
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1451567
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1469681
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 814719
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1461826
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1380576
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1365392
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1461604
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 1375888
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS : 977401
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_PC_INFOS
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_INFOS_NPC
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_OTHER_INFOS_MONSTER
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_VACCUM_INFOS
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_SOCIAL_ITEM_INFOS
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_EXCHANGE_INTEREST_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_EXCHANGE_MY_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_POST_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_QUEST_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_QUEST_COMPLETE_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_INVEN_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_BANK_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_BANK_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_OPEN_SLOT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_BANK_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_SOCKET_LOAD
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_BROACH_LOAD
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_ITEM_LOAD_QUICKSLOT
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_CHARACTER_LOAD_TITLE
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_CHARACTER_UPDATE_TITLE
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_FRIEND_RECOMMAND_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_FRIEND_RECRUIT_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_PARTY_RECRUIT_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_PARTY_AWAITER_LIST
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_FRIEND_RECRUIT_INFO
+LOGLV 2 : 30.791 :: receive_eSUB_CMD_CHANNEL_INFO
+LOGLV 2 : 30.791 :: SetLocationPos>> (xInSiDiOuSx) (11603.71,11328.77,100.00)
+LOGLV 2 : 30.791 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 30.791 :: CreatePlayer>> 1421550(xInSiDiOuSx) 
+LOGLV 2 : 30.791 :: SetLocationPos>> (Guild Manager) (12048.08,8236.13,100.00)
+LOGLV 1 : 30.990 :: EventBox collisoin occure! boxType : 11(90001) (11501.26,11507.37,100.00) 1
+LOGLV 2 : 30.990 :: send_eSUB_CMD_MAZE_LUA_FUNCTION_REQ
+LOGLV 1 : 30.990 :: send_eSUB_CMD_MAZE_LUA_FUNCTION_REQ Call --> pLuaFunctionBox(90001, OnCinemaTalk)
+LOGLV 2 : 31.030 :: SetLocationPos>> (Gwen) (11348.53,7591.81,100.00)
+LOGLV 2 : 31.045 :: SetLocationPos>> (Poy) (13400.65,8296.90,100.17)
+LOGLV 2 : 31.066 :: SetLocationPos>> (Trisha) (10251.79,9331.19,100.00)
+LOGLV 2 : 31.081 :: SetLocationPos>> (nameless:NPC_Script_ID(0)) (11278.14,7588.13,100.00)
+LOGLV 2 : 31.092 :: SetLocationPos>> (Jenna) (10256.84,8646.96,100.00)
+LOGLV 2 : 31.104 :: SetLocationPos>> (Xivus) (17210.00,8560.00,100.00)
+LOGLV 2 : 31.118 :: SetLocationPos>> (Oden) (18075.32,9331.15,100.00)
+LOGLV 2 : 31.129 :: SetLocationPos>> (Yumi) (16550.00,8775.00,100.00)
+LOGLV 2 : 31.141 :: SetLocationPos>> (Glain) (15525.73,7143.81,100.00)
+LOGLV 2 : 31.150 :: SetLocationPos>> (Home Manager) (14611.15,7318.20,100.00)
+LOGLV 1 : 31.153 :: NPC is located on Invalid Position : Home Manager (14611.15,7318.20)->(14611.15,7318.20)
+LOGLV 2 : 31.158 :: SetLocationPos>> (HEMS) (13356.52,11242.20,99.77)
+LOGLV 2 : 31.168 :: SetLocationPos>> (nameless:NPC_Script_ID(0)) (11860.43,12616.67,100.78)
+LOGLV 2 : 31.177 :: SetLocationPos>> (Miriam) (10540.00,12130.00,100.78)
+LOGLV 2 : 31.188 :: SetLocationPos>> (Wilba) (12431.00,11657.09,100.78)
+LOGLV 2 : 31.201 :: SetLocationPos>> (nameless:NPC_Script_ID(0)) (11325.90,10890.68,100.78)
+LOGLV 2 : 31.212 :: SetLocationPos>> (nameless:NPC_Script_ID(0)) (11238.24,12618.03,100.78)
+LOGLV 2 : 31.218 :: SetLocationPos>> (Scral) (12058.46,12421.60,100.78)
+LOGLV 2 : 31.226 :: SetLocationPos>> (Shiho) (13106.54,11238.45,100.02)
+LOGLV 2 : 31.236 :: SetLocationPos>> (Tommy) (10924.67,12279.81,100.78)
+LOGLV 2 : 31.245 :: SetLocationPos>> (Mister-o-Mat) (10584.75,10857.54,100.78)
+LOGLV 2 : 31.258 :: SetLocationPos>> (nameless:NPC_Script_ID(0)) (14390.15,10859.09,94.88)
+LOGLV 2 : 31.263 :: SetLocationPos>> (Benjy) (14044.48,11500.65,100.68)
+LOGLV 2 : 31.271 :: SetLocationPos>> (Voy) (16432.10,11304.73,100.73)
+LOGLV 2 : 31.281 :: SetLocationPos>> (Seoni) (14958.27,11500.65,100.78)
+LOGLV 2 : 31.625 :: receive_eSUB_CMD_OUT_INFO_PC : 1464291
+LOGLV 2 : 31.625 :: receive_eSUB_CMD_OUT_PC_INFO
+LOGLV 2 : 31.791 :: SetLocationPos>> (BeyondSanity) (11531.87,11678.91,100.00)
+LOGLV 2 : 31.791 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 31.791 :: CreatePlayer>> 1451567(BeyondSanity) 
+LOGLV 2 : 32.785 :: receive_eSUB_CMD_OUT_INFO_PC : 1375888
+LOGLV 2 : 32.785 :: receive_eSUB_CMD_OUT_PC_INFO
+LOGLV 2 : 32.793 :: SetLocationPos>> (Aiyaria) (11872.88,11451.30,100.00)
+LOGLV 2 : 32.793 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 32.793 :: CreatePlayer>> 1456034(Aiyaria) 
+LOGLV 2 : 33.799 :: SetLocationPos>> (Mehllow) (11115.37,11867.37,100.00)
+LOGLV 2 : 33.799 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 33.799 :: CreatePlayer>> 1469681(Mehllow) 
+LOGLV 1 : 34.746 :: EventBox collisoin occure! boxType : 11(90001) (11501.26,11507.37,100.00) 0
+LOGLV 2 : 34.807 :: SetLocationPos>> (Gage2878) (11138.43,10346.04,90.48)
+LOGLV 2 : 34.807 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 34.807 :: CreatePlayer>> 1461826(Gage2878) 
+LOGLV 2 : 35.810 :: SetLocationPos>> (Teddykong) (12263.17,10942.98,100.00)
+LOGLV 2 : 35.810 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 35.810 :: CreatePlayer>> 1461806(Teddykong) 
+LOGLV 2 : 36.583 :: eSUB_CMD_DO_GESTURE
+LOGLV 2 : 36.811 :: SetLocationPos>> (JinJam) (11747.44,9422.56,99.97)
+LOGLV 2 : 36.811 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 36.811 :: CreatePlayer>> 1396469(JinJam) 
+LOGLV 2 : 37.380 :: receive_eSUB_CMD_PARTY_RECRUIT_ADD
+LOGLV 2 : 37.812 :: SetLocationPos>> (Zairros) (12432.58,10160.63,92.62)
+LOGLV 2 : 37.812 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 37.812 :: CreatePlayer>> 328625(Zairros) 
+LOGLV 2 : 38.816 :: SetLocationPos>> (Yunoei) (11184.23,11403.99,100.00)
+LOGLV 2 : 38.816 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 38.816 :: CreatePlayer>> 814719(Yunoei) 
+LOGLV 2 : 39.823 :: SetLocationPos>> (Delierz) (12468.39,8963.62,100.04)
+LOGLV 2 : 39.823 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 39.823 :: CreatePlayer>> 1209434(Delierz) 
+LOGLV 1 : 40.097 :: ChangeSequence>> SetState failed!! 177b34d8(N_Stand) -> 177b36b8(N_Far_Idle_01)
+LOGLV 2 : 40.827 :: SetLocationPos>> (OhSoKraZy) (10556.53,7369.61,99.99)
+LOGLV 2 : 40.827 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 40.827 :: CreatePlayer>> 440539(OhSoKraZy) 
+LOGLV 2 : 41.827 :: SetLocationPos>> (Suzuriu) (10572.04,7359.62,99.99)
+LOGLV 2 : 41.827 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 41.827 :: CreatePlayer>> 558507(Suzuriu) 
+LOGLV 2 : 42.830 :: SetLocationPos>> (Aeonz) (12997.57,8862.76,100.10)
+LOGLV 2 : 42.830 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 42.830 :: CreatePlayer>> 1423498(Aeonz) 
+LOGLV 2 : 43.830 :: SetLocationPos>> (LastShadow) (11420.62,11099.90,100.00)
+LOGLV 2 : 43.830 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 43.830 :: CreatePlayer>> 1349073(LastShadow) 
+LOGLV 2 : 44.836 :: SetLocationPos>> (Morph) (12219.62,11088.77,100.00)
+LOGLV 2 : 44.836 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 44.836 :: CreatePlayer>> 1351738(Morph) 
+LOGLV 2 : 45.837 :: SetLocationPos>> (Tyson) (13688.95,9111.21,100.08)
+LOGLV 2 : 45.837 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 45.837 :: CreatePlayer>> 1385709(Tyson) 
+LOGLV 2 : 46.629 :: receive_eSUB_CMD_IN_PC_INFO
+LOGLV 2 : 46.687 :: Wrong Stat User[CHARACTER_UPDATE_STAT_LIST] >> 112126 
+LOGLV 2 : 46.846 :: SetLocationPos>> (Duckubus) (10730.57,11892.40,100.00)
+LOGLV 2 : 46.846 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 46.846 :: CreatePlayer>> 1470354(Duckubus) 
+LOGLV 2 : 47.751 :: receive_eSUB_CMD_IN_PC_INFO
+LOGLV 2 : 47.851 :: SetLocationPos>> (Alexxie) (10560.12,11756.44,100.00)
+LOGLV 2 : 47.851 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 47.851 :: CreatePlayer>> 977606(Alexxie) 
+LOGLV 2 : 48.853 :: SetLocationPos>> (Aztral) (13034.54,6643.18,100.07)
+LOGLV 2 : 48.853 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 48.853 :: CreatePlayer>> 1469521(Aztral) 
+LOGLV 2 : 49.853 :: SetLocationPos>> (Katagious) (13345.32,6547.83,100.06)
+LOGLV 2 : 49.853 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 49.853 :: CreatePlayer>> 1404284(Katagious) 
+LOGLV 2 : 50.854 :: SetLocationPos>> (nohomo) (12958.35,6413.08,100.06)
+LOGLV 2 : 50.854 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 50.854 :: CreatePlayer>> 1470110(nohomo) 
+LOGLV 2 : 51.858 :: SetLocationPos>> (Auriptia) (15803.93,10277.97,90.74)
+LOGLV 2 : 51.858 :: send_eSUB_CMD_CHARACTER_UPDATE_SPECIAL_OPTION_LIST
+LOGLV 2 : 51.858 :: CreatePlayer>> 112126(Auriptia) 
+LOGLV 1 : 51.960 :: GetMyPlayer()->SetEnableInputProcess(FALSE) => from 'SoulworkerDialogBase_cl::SetModal( SoulworkerDialogBase_cl* pDialog ) pDialog != NULL' 
+LOGLV 0 : 52.535 :: SystemMenuDialog_cl::ReceiveExit() -> g_spApp->Quit()
+
+LOGLV 1 : 52.535 :: GetMyPlayer()->SetEnableInputProcess(TRUE) => from 'SoulworkerDialogBase_cl::SetModal( SoulworkerDialogBase_cl* pDialog ) pDialog == NULL' 
+LOGLV 1 : 52.540 :: BandiReceiver Remove (RemoveReceiverEntityAll) : [BandiReceiver0] receiver
+LOGLV 0 : 52.540 :: Play Scene DeactivateScene >> begin
+
+LOGLV 0 : 52.540 :: GameCommon Scene DeactivateScene >> begin
+
+LOGLV 0 : 52.540 :: GameCommon Scene DeactivateScene >> AbstractScene::DeactivateScene
+
+LOGLV 0 : 52.540 :: GameCommon Scene DeactivateScene >> end
+
+LOGLV 0 : 52.540 :: Play Scene DeactivateScene >> end
+
+LOGLV 0 : 52.540 :: RemoveScaleformMovie : GUI\GameContainer.gfx
+
+LOGLV 0 : 52.540 :: DeleteAllLeagueHIstory history_count(0)
+
+Deinitializing engine
+Deinitializing input
+VisMain_cl::DeInit
+DeInitializing Object Data...
+DeInitializing Surface and Texture Data...
+Dump resources...
+...no resource leaks.
