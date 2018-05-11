@@ -30,3 +30,9 @@ ip from the game authentication service
 
 ip from the game world service
 40.71.184.97:11021
+
+# Server DNS
+
+194.187.19.129 -> ns1.gfsrv.net (GameForge)
+206.253.175.37 -> ns1.datanap.net (Volico) aka (ns2.gfsrv.net)
+40.71.184.0/24 -> prd4.azuredns-cloud.net (Main Game Dedicated Host)
